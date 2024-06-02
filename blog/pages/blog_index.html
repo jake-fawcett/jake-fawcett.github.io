@@ -1,0 +1,32 @@
+---
+title: Blog
+permalink: /blog
+layout: none
+---
+
+<html lang="en" class="sr">
+  <head>
+    <link rel="stylesheet" href="css/blog_index.css">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <h1>{{ page.title }}</h1>
+    <h1>Work in Progress - Coming Soon!</h1>
+
+    {% for post in site.posts %}
+        <div class="post">
+            <h2><a class="url" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <div class="tags">
+                <p><b>Tags: </b> {{ post.tags }}</p>
+            </div>
+            <p>{{ post.intro }}</p>
+            {{ post.body|richtext }}
+        </div>
+    {% endfor %}
+    
+    {% include footer.html %}
+  </body>
+</html>
+
