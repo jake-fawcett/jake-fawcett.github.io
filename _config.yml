@@ -10,10 +10,10 @@ description: >-
   Jake Fawcett's Personal Site
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 includes_dir: resources/_includes
+layouts_dir: resources/_layouts
 
 # Exclude from processing.
 # The following items will not be processed, by default.

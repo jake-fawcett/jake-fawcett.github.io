@@ -3,7 +3,6 @@ div {display: flex;}
 a {text-decoration:none; color: #e79fc4; margin-left: 20px;}
 .name {color: #e79fc4}
 
-
 @media screen and (max-width: 550px) {
     .title-div {height: 7.5%; margin-top: 30%; font-size: 0.5em;}
     .profile {border-radius: 50%; height: 100%; padding-right: 2%;}
