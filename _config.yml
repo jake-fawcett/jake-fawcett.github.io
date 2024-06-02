@@ -7,7 +7,7 @@ domain: jake-fawcett.github.io       # if you want to force HTTPS, specify the d
 url: https://jake-fawcett.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: ""     # place folder name if the site is served in a subfolder
 description: >- 
-  Jake Fawcett's Personal Site and Blog
+  Jake Fawcett's Personal Site
 
 # Build settings
 theme: minima
