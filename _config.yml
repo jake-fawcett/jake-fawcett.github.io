@@ -13,6 +13,7 @@ description: >-
 theme: minima
 plugins:
   - jekyll-feed
+includes_dir: resources/_includes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
