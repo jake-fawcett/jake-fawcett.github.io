@@ -1,7 +1,7 @@
 html, body {height: 100%; margin: 0 2.5%; padding: 0; font-family: arial; text-size-adjust: 150%}
 div {display: flex;}
-a {text-decoration:none; color: #e79fc4; margin-left: 20px;}
-.name {color: #e79fc4}
+a {text-decoration:none; color: #26517D; margin-left: 20px;}
+.name {color: #26517D}
 
 @media screen and (max-width: 550px) {
     .title-div {height: 7.5%; margin-top: 30%; font-size: 0.5em;}
